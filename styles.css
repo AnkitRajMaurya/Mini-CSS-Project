@@ -28,6 +28,7 @@ display: none;
     left: -350px;
     height: 100vh;
     width: 300px;
+    backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
     transition: all 0.5s linear;
@@ -51,7 +52,7 @@ display: none;
     width: 100%;
     height: 60px;
 }
-.sidebar_menu .logo #AC{
+.sidebar_menu .logo #logo-name{
     position: absolute;
     left: 20%;
 }
