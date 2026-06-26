@@ -75,10 +75,18 @@ a{
     padding-right: 6px;
 }
 
-.sidebar_menu .social_media {
-   position: absolute;
-   bottom: 25px;
-   left: 25%;
+.social_media ul{
+    display: flex;
+    list-style: none;
+    gap: 1.2rem;
+}
+
+.sidebar_menu .social_media{
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .sidebar_menu .social_media i{
     color: rgba(255, 255, 255, 0.5);
